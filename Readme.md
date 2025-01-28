@@ -4,7 +4,7 @@ An interactive Python REPL interface for running Deepseek's language models loca
 
 ## Sample
 
-[Image](resources/screen.png)
+![Image](resources/screen.png)
 
 ## Features
 - Interactive command-line interface with colored output
