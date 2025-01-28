@@ -2,6 +2,10 @@
 
 An interactive Python REPL interface for running Deepseek's language models locally, featuring 4-bit quantization for efficient memory usage.
 
+## Sample
+
+[Image](/resources/screen.png)
+
 ## Features
 - Interactive command-line interface with colored output
 - Optimized model loading with 4-bit quantization
