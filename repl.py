@@ -26,7 +26,7 @@ def load_local_model():
     )
     return model, tokenizer
 
-def generate_response(model, tokenizer, prompt, max_new_tokens=128):
+def generate_response(model, tokenizer, prompt, max_new_tokens=9999):
     formatted_prompt = f"System: You are a helpful AI assistant. Provide thoughtful and accurate responses.\nHuman: {prompt}\nAssistant: "
     
     inputs = tokenizer(formatted_prompt, return_tensors="pt").to(model.device)
