@@ -57,7 +57,7 @@ def main():
     print(f"{Fore.CYAN}Initializing Deepseek REPL...{Style.RESET_ALL}")
     try:
         model, tokenizer = load_local_model()
-        print(f"\n{Fore.GREEN}Deepseek REPL ready! Type 'exit' to quit or press Ctrl-C{Style.RESET_ALL}\n")
+        #print(f"\n{Fore.GREEN}Deepseek REPL ready! Type 'exit' to quit or press Ctrl-C{Style.RESET_ALL}\n")
         
         while True:
             try:
